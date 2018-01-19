@@ -16,7 +16,4 @@
         BtnBack.FlatAppearance.BorderSize = 0
     End Sub
 
-    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel.LinkClicked
-        System.Diagnostics.Process.Start("https://twitter.com/rafaelferrezla")
-    End Sub
 End Class
